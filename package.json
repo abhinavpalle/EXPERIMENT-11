@@ -1,0 +1,16 @@
+{
+  "name": "student-jwt-api",
+  "version": "1.0.0",
+  "description": "Express and MongoDB student API with JWT-protected endpoints",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}
